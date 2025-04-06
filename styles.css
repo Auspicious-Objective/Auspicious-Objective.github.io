@@ -1,0 +1,89 @@
+body {
+  margin: 0;
+  font-family: "Space Mono", monospace;
+  background-color: white;
+  color: black;
+}
+
+.receipt-bg {
+  background-image: url('resources/receipt-texture.png');
+  background-repeat: repeat;
+  padding: 2rem;
+  min-height: 100vh;
+}
+
+.receipt-container {
+  max-width: 600px;
+  margin: auto;
+  background: white;
+  border: 1px solid black;
+  padding: 1.5rem;
+  box-shadow: 4px 4px 0 black;
+}
+
+h1 {
+  font-size: 2rem;
+  border-bottom: 2px dashed black;
+  padding-bottom: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.tagline {
+  margin-bottom: 1.5rem;
+}
+
+h2 {
+  font-size: 1.25rem;
+  border-bottom: 1px dashed black;
+  padding-bottom: 0.25rem;
+  margin-bottom: 1rem;
+}
+
+.about-section {
+  display: flex;
+  gap: 1rem;
+  align-items: flex-start;
+  margin-bottom: 2rem;
+}
+
+.profile-photo {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border: 1px dashed black;
+  box-shadow: 2px 2px 0 black;
+}
+
+.about {
+  flex: 1;
+  font-size: 0.95rem;
+  line-height: 1.5;
+}
+
+.project {
+  border: 1px dashed black;
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+
+.project a {
+  display: inline-block;
+  margin-top: 0.5rem;
+  font-size: 0.85rem;
+  padding: 0.25rem 0.5rem;
+  border: 1px solid black;
+  text-decoration: none;
+  color: black;
+}
+
+.contact {
+  border-top: 1px dashed black;
+  margin-top: 1.5rem;
+  padding-top: 1rem;
+  font-size: 0.9rem;
+  font-family: "Space Mono", monospace;
+}
+
+.links {
+  color: black;
+}
